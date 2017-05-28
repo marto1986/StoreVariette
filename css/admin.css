@@ -1,0 +1,221 @@
+h1{
+    margin:auto;
+    text-align: center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    background-color: #dabbf4;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]:focus {
+    background-color: #dabbf4;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea:focus {
+    background-color: #dabbf4;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #669934;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+.formulario{
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.nuevo {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    float: right;
+    margin-top: 1%;
+    margin-right: 15%;
+    width: 7%;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.nuevo1 {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: 2px solid #4CAF50;
+}
+.nuevo:hover {
+    background-color: #fff;
+    color: #000;
+}
+.ingresar{
+    background-color: white;
+    background-image: url('./img/clave.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.img{
+    float: right;
+    width: 10%!important;
+    margin-right: 10%!important;
+}
+.elemento{
+    margin-right: -10%!important;
+    float: right;
+    width: 10%!important;
+    margin-top: 3%!important;
+}
+.imagenes{
+    width: 100%;
+}
+.minuaturas{
+    width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin-left: 5%;
+    float: left;
+    padding: 5px;
+}
+.minuaturas img{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+.cajas {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 5%;
+}
+.caja {
+    margin-top: -1%;
+    margin-bottom:  9%;
+    margin-left:12%;
+    border:solid 5px #000;
+    border-radius: 7px;
+    border-style: double;
+    height: 380px;
+    float:left;
+    width: 350px;
+    box-shadow: 10px 10px 5px #000;
+    cursor: pointer;
+}
+.cuadro{
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cuadro img{
+     border-radius: 8px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     height: 300px;
+}
+.cuadro a{
+    text-decoration: none;
+}
+.descripcion{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+    margin:auto;
+    text-shadow: 2px 2px 2px black, 0 0 18px black, 0 0 5px black;
+    font-weight: bold;
+}
+.descripcion a:hover{
+    color:#000;
+    text-shadow: 2px 2px green;
+}
+.logo{
+    margin-left: 1%;
+    float: left;
+}
+.nombre{
+    text-align: center;
+    margin:auto;
+    color:#000;
+    text-shadow: 1px 1px green;
+}
+.nombre a:hover{
+    text-decoration: none;
+    color:#000;
+    text-shadow: 1px 1px green;
+}
+.precio{
+    color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    text-align: center;
+    margin:auto;
+    background-color: #669934;
+    border-radius: 50%;
+    width: 25%;
+    font-size:22px;
+}
+.precio a:hover{
+    text-decoration: none;
+    color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 2px 2px green;
+}
+#error{
+    color:red;
+    font-size: 18px;
+}
+.delete{
+    background-color: red!important;
+}

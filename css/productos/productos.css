@@ -1,0 +1,256 @@
+body{
+    background-color: #fff;
+}
+.cajas {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 5%;
+}
+.caja {
+    margin-top: -1%;
+    margin-bottom:  9%;
+    margin-left:12%;
+    border:solid 5px #000;
+    border-radius: 7px;
+    border-style: double;
+    height: 380px;
+    float:left;
+    width: 350px;
+    box-shadow: 10px 10px 5px #000;
+    cursor: pointer;
+}
+.cuadro{
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cuadro img{
+     border-radius: 8px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     height: 300px;
+}
+.cuadro a{
+    text-decoration: none;
+}
+.descripcion{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+    margin:auto;
+    text-shadow: 2px 2px 2px black, 0 0 18px black, 0 0 5px black;
+    font-weight: bold;
+}
+.descripcion a:hover{
+    color:#000;
+    text-shadow: 2px 2px green;
+}
+.logo{
+    margin-left: 1%;
+    float: left;
+}
+.nombre{
+    text-align: center;
+    margin:auto;
+    color:#000;
+    text-shadow: 1px 1px green;
+}
+.nombre a:hover{
+    text-decoration: none;
+    color:#000;
+    text-shadow: 1px 1px green;
+}
+.precio{
+    color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    text-align: center;
+    margin:auto;
+    background-color: #669934;
+    border-radius: 50%;
+    width: 25%;
+    font-size:22px;
+}
+.precio a:hover{
+    text-decoration: none;
+    color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 2px 2px green;
+}
+.viewNombre{
+    color:red;
+    text-align: center;
+    margin: auto;
+}
+.viewDescripcion{
+    margin-bottom: 30%!important;
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.viweTitulo{
+    color:#fff;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+}
+.viewsubTitulo1{
+    color:#fff;
+    font-size: 20px;
+    background-color: #669934;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+}
+.opcional{
+    background-color: #006599;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    color:#fff;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+}
+.viewdescripcion{
+    color:#fff;
+    font-weight: bold;
+    background-color: #01a4dd;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+}
+.condicion{
+    font-weight: bold;
+    color:#fff;
+    background-color: red;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.colores{
+    background-color: #6f4c8e;
+    color:#fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.pagos{
+    color:#fff;
+    font-weight: bold;
+    background-color: #669934;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.envios{
+    color:#fff;
+    font-weight: bold;
+    background-color: blue;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.viewConsultas{
+    color:#fff;
+    font-weight: bold;
+    background-color: #6f4c8e;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.contactoEmail{
+    color:#fff;
+    font-weight: bold;
+    background-color: #000;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.contactoWhatsapp{
+    color:#fff;
+    font-weight: bold;
+    background-color: #000;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+    font-size: 18px;
+}
+.titleProducto{
+    color:#fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+}
+.carrito{
+    width: 25%;
+    float: right;
+    color:#000;
+    text-align: center;
+    font-weight: bold;
+    padding: 1%;
+    border: solid 1px #ccc;
+    border-radius: 3%;
+    margin-right: 10%;
+    margin-top: -22%!important;
+    margin-bottom: 5%;
+}
+.agregarCarro{
+    text-shadow: 1px 1px 1px black, 0 0 18px black, 0 0 5px black;
+}
+.verCarro{
+    width: 13%;
+    float: right;
+    margin-right: 11%;
+    margin-top: -30%!important;
+}
+.carrito #quantity{
+    color: #000;
+}
+.precioCarro{
+    color:#fff;
+    text-shadow: 1px 1px green;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+    margin-top: 1%;
+    width: 100%;
+    font-size:20px;
+    text-shadow: 1px 1px 1px green, 0 0 18px green, 0 0 5px green;
+}
+.min{
+    color: green;
+}
+#quantity{
+    text-align: center;
+}
+.min a{
+    text-decoration: none;
+}
+.plus{
+    color: green;
+}
+.plus a{
+    text-decoration: none;
+}
+.cuotas{
+    font-weight: bold;
+}
+.envios{
+    font-weight: bold;
+}
+.storevariette{
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    margin-top: 8%;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px black, 0 0 5px white, 0 0 5px white;
+}
+.redesSociales{
+   margin-top: 3%;
+   text-align: center;
+   margin:auto;
+   width: 30%;
+   padding:2%;
+}
+.contenido{
+   width: 100%;
+   margin:auto;
+   text-align:center;
+}
+.contenido .redesSociales .carrito .container{
+    margin:auto;
+}
