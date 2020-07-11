@@ -47,4 +47,4 @@ Construido con 🛠️
 Autores ✒️
 ***************
 
-• Martín Matias - Desarrollo y diseño - `LINKEDIN <https://www.linkedin.com/in/martin-matias>`
+- Martín Matias - Desarrollo y diseño <LINKEDIN <https://www.linkedin.com/in/martin-matias>`_
